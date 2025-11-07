@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* style.css lub style.scss */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Kluczowe, aby Angular wypełniał całą wysokość */
+app-root {
+  display: block; /* Lub display: flex/grid, jeśli używasz tych metod w AppComponent */
+  min-height: 100%;
+}
